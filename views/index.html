@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+</head>
+<body>
+    <h1>Desafio</h1>
+    <p>Nome: João Victor de Oliveira Silva  RGM: 29672422</p>
+    <p>Nome: Vinícius Roberto Figueiredo RGM: 30154243</p>
+    O grupo deve desenvolver um sistema completo em node.js no qual contenha dois diretórios: 
+    <ul>
+       <li>./recursos </li> 
+       <li>./views  </li> 
+    </ul>
+         
+        <p> - O usuário (cliente do servidor) deve adicionar todo o projeto de website (formato .html, etc) no diretório
+        “./views” e arquivos no diretório “./recursos” . A fim de teste, vão conter seis tipos de arquivos com nome e
+        extensão: arquivo.docx, arquivo.jpeg, arquivo.mp3, arquivo.mp4, arquivo.json e arquivo.md. dentro do
+        diretório “./recursos” </p>
+        - O sistema de back-end deve direcionar a abertura dos arquivos via navegador através dos caminhos (rotas)
+        de serviço:  
+    <ul>
+        <li><a href="http://localhost:3000/abertura/tipoDocx">Abrir arquivo arquivo.docx</a></li>
+        <li><a href="http://localhost:3000/abertura/tipoJpeg">Abrir arquivo arquivo.jpeg</a></li>
+        <li><a href="http://localhost:3000/abertura/tipoMp3">Abrir arquivo arquivo.mp3</a></li>
+        <li><a href="http://localhost:3000/abertura/tipoMp4">Abrir arquivo arquivo.mp4</a></li>
+        <li><a href="http://localhost:3000/abertura/tipoJson">Abrir arquivo arquivo.json</a></li>
+        <li><a href="http://localhost:3000/abertura/tipoMd">Abrir arquivo arquivo.md</a></li>
+    </ul>
+        - Caso não encontre o caminho digitado, o sistema deve enviar um site chamado “404.html” com informações
+        que o caminho não foi encontrado.  
+        
+        - Conforme o usuário entrar nos caminhos GET via URL (descritos abaixo) o sistema deve abrir os seguintes
+        sites (arquivos html):  
+    <ul> 
+        <li><a href="http://localhost:3000/">Abrir site index.html</a></li>
+        <li><a href="http://localhost:3000/contatos">Abrir site contato.html</a></li>
+        <li><a href="http://localhost:3000/produtos">Abrir site produto.html</a></li>
+        <li><a href="http://localhost:3000/catalogos">Abrir site catalogo.html</a></li>
+    </ul>    
+        - Cada grupo deve montar os arquivos htmls, rotas e logica mencionada.  
+        
+        - No arquivo index.html o grupo deve descrever o projeto e apresentar o grupo.  
+        
+        - Entrega deve ser via github, submetendo futuramente no Black Board (em data a ser anunciada pelo
+        professor).  
+        
+        - Para validação, o professor ao abaixar o código, vai inserir alguns arquivos (conforme enunciado) para validar
+        / testar o sistema, com exceção dos views.  
+        
+        - A interpretação e criatividade ficam a critério do grupo.
+</body>
+</html>
